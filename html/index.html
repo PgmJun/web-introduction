@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src = "../js/script.js"></script>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>우아한테크코스 6기 이든 자기소개</title>
+</head>
+<body>
+  <div>
+
+    <div class="box">
+      <h2>자기 소개 🙌</h2>
+      <div id="introduce">
+        <div class="introduce_profile">
+          <ul>
+            <li><strong>닉네임</strong> : 이든</li>
+            <li><strong>나이</strong> : 25</li>
+            <li><strong>파트</strong> : BackEnd</li>
+            <li><strong>전공</strong> : 컴퓨터소프트웨어공학</li>
+            <li><strong>취미</strong> : 드럼, 헬스, 노래</li>
+          </ul>
+        </div>
+        <div class="introduce_profile">
+          <image src="../images/profileImage.jpg" width="225px" height="270px"></image>
+        </div>
+      </div>
+      <hr>
+      <div>
+        <p>
+          안녕하세요 저는 우아한 테크코스 6기에 함께하게 된 <strong>이든</strong>이라고 합니다! 🙌 <br>
+          <strong>컴퓨터소프트웨어공학과</strong> 를 졸업했으며, 현재 6기의 <strong>백엔드</strong> 파트입니다! <br>
+          취미는 <strong>드럼</strong>과 <strong>헬스</strong>이며, 드럼 경력은 8년 헬스 경력는 5년 정도 되었습니다. <br>
+          <br>
+          친해지고 싶거나 궁금한게 있다면 편하게 DM 주세요:)
+        </p>
+      </div>
+    </div>
+    
+    <div class="box">
+      <h2>가장 좋아하는 노래 Top5 🎤</h2>
+      
+      <p>저랑 노래방 가면 아래 노래들 불러드립니다 🙂</p>
+      
+      <table solid black>
+        <tr>
+          <th>순위</th>
+          <th>제목</th>
+          <th>가수</th>
+          <th>링크</th>
+        </tr>
+        <tr>
+          <td>1위</td>
+          <td>가을 안부</td>
+          <td>먼데이키즈</td>
+          <td><a href="https://www.youtube.com/watch?v=BQBdAvvPfuQ">바로가기</a></td>
+        </tr>
+        <tr>
+          <td>2위</td>
+          <td>너를 만나</td>
+          <td>젬스톤</td>
+          <td><a href="https://www.youtube.com/watch?v=P-ibm-nuTks">바로가기</a></td>
+        </tr>
+        <tr>
+          <td>3위</td>
+          <td>Marry Me</td>
+          <td>마크툽, 구윤회</td>
+          <td><a href="https://www.youtube.com/watch?v=qgqu41UEXSs">바로가기</a></td>
+        </tr>
+        <tr>
+          <td>4위</td>
+          <td>Heaven</td>
+          <td>임재현</td>
+          <td><a href="https://www.youtube.com/watch?v=fPLXgfcyoMc">바로가기</a></td>
+        </tr>
+        <tr>
+          <td>5위</td>
+          <td>그대만 있다면</td>
+          <td>너드커넥션</td>
+          <td><a href="https://www.youtube.com/watch?v=IMWT6937uUs">바로가기</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="box"> 
+      <h2>방명록 📃</h2>
+        <form>
+          이름 : <input type="text" placeholder="ex) BE_이든" id="name" value=""></input>
+          <br>
+          <p><strong>가장 좋은 노래는?</strong></p>
+          <input type="radio" id="t1">가을 안부
+          <input type="radio" id="t2">너를 만나
+          <input type="radio" id="t3">Marry Me
+          <input type="radio" id="t4">Haeven
+          <input type="radio" id="t5">그대만 있다면
+          
+          <br>
+          <button id="submit_button" type="submit" class="button" onclick="checkSame()">등록</button>
+          <button id="reset_button" type="reset" class="button">취소</button>
+        </form>
+    </div>
+  </div>
+</body>
+</html>
